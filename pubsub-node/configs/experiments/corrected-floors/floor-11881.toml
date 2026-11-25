@@ -1,0 +1,39 @@
+# Corrected row floor N = 11 881, B = 512 — CIP-0201 "What remains to be
+# measured" item 1. Candidate admission budget C = 17 from the serving-cap
+# recipe (k = 10, mu = 0.2, A = 2 377): L = (1 - m~)(k(1-mu) + A/B) = 7.19,
+# C = ceil(L + 3.5 sqrt L) = 17.
+#
+# Churn axis = honest downtime after topology formation (reference 0; 2 % =
+# the deployment bar; 5 % = the churn reading). No <= 1e-4 tail claim; these
+# cells establish no gross failure at the floor.
+#
+#   experiments --config configs/experiments/corrected-floors/floor-11881.toml --out results/corrected-floors/floor-11881/
+
+model = "m4"
+master_seed = 1301
+
+[population]
+size = 11881
+adversarial_fraction = 0.2
+topic = "t0"
+
+[strategies.honest]
+pick_count = 10
+bucket_count = 512
+accept_cap = 17
+symmetric = true
+fanout = "forward-to-relays"
+
+[strategies.adversarial]
+pick_count = 10
+bucket_count = 512
+accept_cap = 17
+symmetric = true
+fanout = "silent-relay"
+
+[execution]
+runs_per_experiment = 2000
+
+[[axes]]
+parameter = "churn"
+values = [0.0, 0.02, 0.05]

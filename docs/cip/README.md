@@ -1,5 +1,5 @@
 ---
-CIP: "?"
+CIP: 0201
 Title: Decentralised Pub/Sub Message Dissemination
 Category: Network
 Status: Proposed
@@ -12,9 +12,9 @@ Authors:
     - Mauro Jaskelioff <mauro.jaskelioff@iohk.io>
 Implementors: []
 Solution To:
-    - CPS-? | Trustworthy Off-chain Message Dissemination: ../cps/README.md
+    - CPS-0038 | Trustworthy Off-chain Message Dissemination: ../cps/README.md
 Discussions:
-    - Original PR: https://github.com/cardano-foundation/CIPs/pull/?
+    - Original PR: https://github.com/cardano-foundation/CIPs/pull/1271
 Created: 2026-07-21
 License: CC-BY-4.0
 ---
