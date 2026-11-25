@@ -2,9 +2,9 @@
 
 Research and development of a publish/subscribe communication layer for the Cardano ecosystem: signed messages, on-chain publication permissions and deposit-backed node membership.
 
-The project is currently in **Phase 2 — empirically-driven architecture** ([#46](https://github.com/input-output-hk/pubsub/issues/46)). The [Cardano Improvement Proposal (CIP)](docs/cip/README.md) is available for review and selects **M4** within the evaluated [model family](formal_spec/hybrid_dissemination/models/README.md): bidirectional links with a verifiable eligibility rule and an admissions budget. It records the supporting evidence, its limits, and the protocol completion and validation work required for activation.
+The [Cardano Improvement Proposal](docs/cip/README.md) — **CIP-0201** — is available for review and selects **M4** within the evaluated [model family](formal_spec/hybrid_dissemination/models/README.md): bidirectional links with a verifiable eligibility rule and an admissions budget. It records the supporting evidence, its limits, and the protocol completion and validation work required for activation.
 
-Review is planned through **October 2026**, with **CIP approval targeted for October–November 2026**. See the [project timeline](https://pubsub.cardano-scaling.org/#research) for the milestones and subsequent implementation work.
+CIP-0201 and its companion CPS-0038 were submitted on 16 September and confirmed by the CIP editors on 29 September; the proposal is in review, with merging as *Proposed* targeted for the end of the year. See the [project timeline](https://pubsub.cardano-scaling.org/#research) for the milestones and subsequent implementation work.
 
 > **Important Disclaimer & Acceptance of Risk**
 >

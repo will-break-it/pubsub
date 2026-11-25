@@ -1,6 +1,6 @@
 # Year-end 2026 storyline
 
-The narrative behind the [year-end deck](../web/slides/year-end-2026.draft.html), built from the [logbook](../logbook.md), the [biweekly reports](../biweekly-reports/), the [CPS](cps/README.md), the [CIP](cip/README.md), the March technical review, the AUEB gap analysis and the CIP repository pull requests ([CPS #1270](https://github.com/cardano-foundation/CIPs/pull/1270), [CIP #1271](https://github.com/cardano-foundation/CIPs/pull/1271)).
+The narrative behind the [year-end deck](../web/slides/year-end-2026.html), built from the [logbook](../logbook.md), the [biweekly reports](../biweekly-reports/), the [CPS](cps/README.md), the [CIP](cip/README.md), the March technical review, the AUEB gap analysis and the CIP repository pull requests ([CPS #1270](https://github.com/cardano-foundation/CIPs/pull/1270), [CIP #1271](https://github.com/cardano-foundation/CIPs/pull/1271)).
 
 ## The shape of the talk
 
