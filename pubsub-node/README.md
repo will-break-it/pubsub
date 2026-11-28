@@ -1,10 +1,10 @@
 # pubsub-node
 
-Rust implementation of the Cardano PubSub node. Part of the [Cardano PubSub workstream](../) — currently in Architecture & Design phase. Implementation scaffolding is being assembled in this directory; the protocol design itself lives in the parent repo under `docs/` and `formal_spec/`.
+Rust implementation of the Cardano PubSub node — the reference prototype behind the experiments in [CIP-0201](../docs/cip/README.md). It runs the protocol-core state machine deterministically (prototype node and simulator share the same pure transitions), configures the five evaluated dissemination models, and drives the experiment sweeps. The protocol design itself lives in the parent repo under `docs/` and `formal_spec/`.
 
 ## Status
 
-Initial scaffold. Constitution v1.0.0 ratified; first feature spec to follow.
+Reference implementation of the protocol core and the experiment driver. Signing is a mock scheme and both registries are held in memory (rule-by-rule correspondence in [cip-correspondence](docs/cip-correspondence.md)); the on-chain components remain to be implemented. The spec-driven feature list lives in [`specs/`](specs/).
 
 ## For contributors
 

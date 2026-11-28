@@ -1,5 +1,5 @@
 ---
-CPS: "?"
+CPS: 0038
 Title: Trustworthy Off-chain Message Dissemination
 Status: Open
 Category: Network
@@ -11,9 +11,9 @@ Authors:
     - Dana Alibrandi <dalibrandi@gmail.com>
     - Mauro Jaskelioff <mauro.jaskelioff@iohk.io>
 Proposed Solutions:
-    - CIP-? | Decentralised Pub/Sub Message Dissemination: ../cip/README.md
+    - CIP-0201 | Decentralised Pub/Sub Message Dissemination: ../cip/README.md
 Discussions:
-    - Original PR: https://github.com/cardano-foundation/CIPs/pull/?
+    - Original PR: https://github.com/cardano-foundation/CIPs/pull/1270
 Created: 2026-08-20
 License: CC-BY-4.0
 ---

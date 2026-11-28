@@ -1,0 +1,28 @@
+# Tight-row floor N=81, B=4 (candidate bucket table) — gated coverage at
+# the row's least-headroom point: pick count 10, symmetric M4, no admission
+# cap. Admission-budget validation is a separate row (CIP item 1).
+#
+#   experiments --config configs/experiments/tight-rows/floor-81.toml --out results/tight-rows/floor-81/
+
+model = "m4"
+master_seed = 1211
+
+[population]
+size = 81
+adversarial_fraction = 0.2
+topic = "t0"
+
+[strategies.honest]
+pick_count = 10
+bucket_count = 4
+symmetric = true
+fanout = "forward-to-relays"
+
+[strategies.adversarial]
+pick_count = 10
+bucket_count = 4
+symmetric = true
+fanout = "silent-relay"
+
+[execution]
+runs_per_experiment = 2000
